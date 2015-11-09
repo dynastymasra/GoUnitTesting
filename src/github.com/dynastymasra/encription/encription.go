@@ -1,5 +1,14 @@
   package encription
 
+  /**
+   * Created by Dynastymasra
+   * Name     : Dimas Ragil T
+   * Email    : dynastymasra@gmail.com
+   * LinkedIn : http://www.linkedin.com/in/dynastymasra
+   * Github   : https://github.com/dynastymasra
+   * Mobile and Backend Developer
+   */
+   
   func Encription(text string, step int) string {
     shift, offset := rune(step), rune(26)
     runes := []rune(text)
